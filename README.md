@@ -1,6 +1,32 @@
-# microsoft_movies 
-Specific questions I can explore using the dataset:
+# Exxploratory Data Analysis on Film Industry: Genres and Profitability
+## Big question: What movies should Microsoft invest in producing as part of its new streaming service venture?
+How are box office revenue and ratings influenced by genre, budget and release date?
+Hypotheses:
+Positive correlation between budget and revenue
 
+## Data collected and visualized
+
+## Process & Tools Used
+1. Researched what factors might go into movie success, possible variables, etc
+2. Queried data and created visuals using Matplotlib to gain insight into any interesting relationships.
+
+## How a movie's success is measured
+A film's success is dependent on multiple factors:
+Popularity
+User reviews
+Returns relative to the budget
+
+## Findings
+## Does release date affect revenue?
+## Are budget and revenue correlated?
+The relationship seemed somewhat positively correlated, with a correlation coefficient of 0.62, but there are too many confounding variables to say with any confidence that an increased budget will lead to an increase in revenue. We recommend sticking with the range indicated above
+## Which movie genres are crowd favorites?
+## Does production month affect popularity of a genre?
+## Does popularity affect vote average?
+The positive correlation between a film's popularity, as measured by user votes indicates that there is a tendency for the popularity and vote_average to increase together. Films with higher popularity or better ratings tend to have higher box office success and therefore perform better financially. These are the type of films that the Microsoft's new movie studio should consider producing
+
+@@ Recommendations and Suggestions
+##Specific questions I can explore using the dataset:
 Genre Analysis: Determine the most successful genres in terms of box office revenue. Identify which genres have been consistently popular over recent years and have a high potential for success.
 
 Budget vs. Revenue: Analyze the relationship between the budget allocated to a film and its box office revenue. Identify the budget ranges that have shown the highest return on investment.
