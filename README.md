@@ -1,4 +1,4 @@
-# Exxploratory Data Analysis on Film Industry: Genres and Profitability
+# Exploratory Data Analysis on Film Industry: Genres and Profitability
 ## Big question: What movies should Microsoft invest in producing as part of its new streaming service venture?
 How are box office revenue and ratings influenced by genre, budget and release date?
 Hypotheses:
@@ -18,14 +18,31 @@ Returns relative to the budget
 
 ## Findings
 ## Does release date affect revenue?
+![download](https://github.com/mwanza00/microsoft_movies/assets/137791910/097e6ea3-0c66-463e-841a-a941c83f38fd)
+
+
 ## Are budget and revenue correlated?
+
 The relationship seemed somewhat positively correlated, with a correlation coefficient of 0.62, but there are too many confounding variables to say with any confidence that an increased budget will lead to an increase in revenue. We recommend sticking with the range indicated above
+
+![download](https://github.com/mwanza00/microsoft_movies/assets/137791910/5442fd2f-0033-4ebb-863e-1b97ef4b2bd2)
+
+
 ## Which movie genres are crowd favorites?
+![download](https://github.com/mwanza00/microsoft_movies/assets/137791910/1d30374b-ca71-43a4-938c-f7670a03b986)
+
+
 ## Does production month affect popularity of a genre?
+![download](https://github.com/mwanza00/microsoft_movies/assets/137791910/4312f928-86c6-4a0b-aa53-19e573e8625e)
+
+
 ## Does popularity affect vote average?
 The positive correlation between a film's popularity, as measured by user votes indicates that there is a tendency for the popularity and vote_average to increase together. Films with higher popularity or better ratings tend to have higher box office success and therefore perform better financially. These are the type of films that the Microsoft's new movie studio should consider producing
 
-@@ Recommendations and Suggestions
+![download](https://github.com/mwanza00/microsoft_movies/assets/137791910/b7ce7a7f-089c-435a-8244-9764b7b8661a)
+
+## Recommendations and Suggestions
+
 ##Specific questions I can explore using the dataset:
 Genre Analysis: Determine the most successful genres in terms of box office revenue. Identify which genres have been consistently popular over recent years and have a high potential for success.
 
