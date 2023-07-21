@@ -1,10 +1,17 @@
 # Exploratory Data Analysis on Film Industry: Genres and Profitability
+![image](https://github.com/mwanza00/microsoft_movies/assets/137791910/a8cec26f-9d46-404c-8e3c-baac968c9210)
+
 ## Big question: What movies should Microsoft invest in producing as part of its new streaming service venture?
 How are box office revenue and ratings influenced by genre, budget and release date?
 Hypotheses:
 Positive correlation between budget and revenue
 
-## Data collected and visualized
+## Data understanding
+In this lab, I have worked with a version of the comprehensive Movies Dataset Superheroes Dataset. I have modified the structure and contents of the dataset somewhat for the purposes of this lab. 
+
+The data is contained in two separate CSV files
+movie_budgets.csv:  each record represents a movie, then has release date, production budget and revenue representing features of the movies.
+tmdb_movies.csv: each record represents a movie genre_id, with attributes of that genre_id (e.g. popularity).
 
 ## Process & Tools Used
 1. Researched what factors might go into movie success, possible variables, etc
@@ -42,6 +49,7 @@ The positive correlation between a film's popularity, as measured by user votes 
 ![download](https://github.com/mwanza00/microsoft_movies/assets/137791910/b7ce7a7f-089c-435a-8244-9764b7b8661a)
 
 ## Recommendations and Suggestions
+### Does release date affect revenue?
 
 ##Specific questions I can explore using the dataset:
 Genre Analysis: Determine the most successful genres in terms of box office revenue. Identify which genres have been consistently popular over recent years and have a high potential for success.
