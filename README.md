@@ -1,13 +1,14 @@
-# Exploratory Data Analysis on Film Industry: Genres and Profitability
-![image](https://github.com/mwanza00/microsoft_movies/assets/137791910/a8cec26f-9d46-404c-8e3c-baac968c9210)
+# Exploratory Data Analysis on Film Industry: Genres, Popularity and Profitability
+![image](https://github.com/mwanza00/microsoft_movies/assets/137791910/8338478d-bbd9-4fc5-93b2-d88f4d75bac3)
 
-## Big question: What movies should Microsoft invest in producing as part of its new streaming service venture?
+
+## Big question: What factors should Microsoft take into account for success in its new streaming service venture?
 How are box office revenue and ratings influenced by genre, budget and release date?
 Hypotheses:
 Positive correlation between budget and revenue
 
 ## Data understanding
-In this lab, I have worked with a version of the comprehensive Movies Dataset Superheroes Dataset. I have modified the structure and contents of the dataset somewhat for the purposes of this lab. 
+In this lab, I have worked with two versions of comprehensive Movies Datasets. I have modified the structure and contents of the datasets somewhat for the purposes of this lab. 
 
 The data is contained in two separate CSV files
 movie_budgets.csv:  each record represents a movie, then has release date, production budget and revenue representing features of the movies.
@@ -19,49 +20,45 @@ tmdb_movies.csv: each record represents a movie genre_id, with attributes of tha
 
 ## How a movie's success is measured
 A film's success is dependent on multiple factors:
-Popularity
-User reviews
-Returns relative to the budget
+1. Popularity
+2. User reviews
+3. Returns relative to the budget
 
 ## Findings
 ## Does release date affect revenue?
-![download](https://github.com/mwanza00/microsoft_movies/assets/137791910/097e6ea3-0c66-463e-841a-a941c83f38fd)
+
+From the analysis, I have observed that the release month of a movie affects revenue. Movies released in May tend to generate the most revenue while movies released in September tend ti generate the least revenue. Microsoft should take note of this and consider producing movies during the most favorable months or seasons for releasing films in order to maximize revenue production. Films released in May tend to have higher box office success and therefore perform better financially. These are the months of the year that Microsoft's new movie studio should consider producing new movies.
+
+![download](https://github.com/mwanza00/microsoft_movies/assets/137791910/2b377b64-1346-480e-a8bf-6867d9b88a2c)
 
 
 ## Are budget and revenue correlated?
 
-The relationship seemed somewhat positively correlated, with a correlation coefficient of 0.62, but there are too many confounding variables to say with any confidence that an increased budget will lead to an increase in revenue. We recommend sticking with the range indicated above
+The correlation coefficient between budget and worldwide gross is 0.748, indicating a moderate to strong positive correlation between production budget and revenue. This means that as the budget of a movie increases, there is a tendency for its revenue to increase as well. In other words, higher-budget movies tend to generate higher revenue on average. However, it's important to note that correlation does not imply causation, and there may still be significant variability in revenue that is not accounted for by the budget alone. While there is a positive relationship between budget and revenue, other factors may also influence revenue generation, such as marketing, genre, star power, and release timing. There are too many confounding variables to say with any confidence that an increased budget will lead to an increase in revenue. We recommend sticking with the range indicated in the dataset.
 
 ![download](https://github.com/mwanza00/microsoft_movies/assets/137791910/5442fd2f-0033-4ebb-863e-1b97ef4b2bd2)
 
 
 ## Which movie genres are crowd favorites?
+
+The most popular movie genre is the movie genre_id [28,12,35,14]. Microssoft can create movies from the most successful genres since these genres have been consistently popular over recent years. These genres have a high potential for success therefore leading to high box office revenue.
+
 ![download](https://github.com/mwanza00/microsoft_movies/assets/137791910/1d30374b-ca71-43a4-938c-f7670a03b986)
 
 
 ## Does production month affect popularity of a genre?
+
+There is a positive correlation coefficient between popularity and release month for each specific movie genre_id. Apart from audience preferences and popularity, another thing that Microsoft should take into account when producing different genres of movies is the release date. They should consider producing movies for each genre during the most favorable months or seasons for releasing films in that genre.
+
 ![download](https://github.com/mwanza00/microsoft_movies/assets/137791910/4312f928-86c6-4a0b-aa53-19e573e8625e)
 
 
 ## Does popularity affect vote average?
-The positive correlation between a film's popularity, as measured by user votes indicates that there is a tendency for the popularity and vote_average to increase together. Films with higher popularity or better ratings tend to have higher box office success and therefore perform better financially. These are the type of films that the Microsoft's new movie studio should consider producing
+
+The positive correlation between a film's popularity, as measured by user votes indicates that there is a tendency for the popularity and vote_average to increase together. Films with higher popularity or better ratings tend to have higher box office success and therefore perform better financially. These are the type of films that the Microsoft's new movie studio should consider producing in order to maximize revenue production.
 
 ![download](https://github.com/mwanza00/microsoft_movies/assets/137791910/b7ce7a7f-089c-435a-8244-9764b7b8661a)
 
 ## Recommendations and Suggestions
-### Does release date affect revenue?
 
-##Specific questions I can explore using the dataset:
-Genre Analysis: Determine the most successful genres in terms of box office revenue. Identify which genres have been consistently popular over recent years and have a high potential for success.
-
-Budget vs. Revenue: Analyze the relationship between the budget allocated to a film and its box office revenue. Identify the budget ranges that have shown the highest return on investment.
-
-Release Date Analysis: Study the impact of release dates on a film's box office performance. Identify the most favorable months or seasons for releasing films, taking into account competition and audience preferences.
-
-Production Companies: Analyze the involvement of successful production companies in top-performing films. Identify which production companies have consistently produced successful movies and consider potential collaborations or partnerships.
-
-Popularity and Vote Average: Explore the correlation between a film's popularity, as measured by user votes or ratings, and its box office success. Determine whether films with higher popularity or better ratings tend to perform better financially.
-
-By analyzing these aspects of the dataset, we can provide actionable insights to the head of Microsoft's new movie studio, guiding their decision-making process in terms of film genres, budget allocation, release timing, and potential partnerships. These insights can help them develop a strategic plan to create successful movies and compete effectively in the film industry.
-
-Doe
+Based on the visualized data, the recommended route for a brand new movie studio is to focus on producing films with high popularity or better ratings since they tend to have a high potential for success and perform better financially. They are the most successful genres in terms of box office revenue. Microsoft's new movie studio should produce movies during the most favorable months or seasons for releasing films, taking into account competition and audience preferences. The studio should also produce movies within higher budget ranges since they have shown the highest returns on investment.
