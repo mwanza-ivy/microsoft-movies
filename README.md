@@ -1,5 +1,6 @@
 # Exploratory Data Analysis on Film Industry: Genres, Popularity and Profitability
 ![istockphoto-453554783-612x612](https://github.com/mwanza00/microsoft_movies/assets/137791910/e4a87b06-47f1-4018-9348-86a06d39713d)
+![images (1)](https://github.com/mwanza00/microsoft_movies/assets/137791910/1264680c-f5c8-4611-bbc9-636367bf867b)
 
 
 ## Big question: What factors should Microsoft take into account for success in its new streaming service venture?
