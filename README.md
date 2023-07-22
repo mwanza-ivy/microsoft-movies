@@ -60,6 +60,7 @@ The positive correlation between a film's popularity, as measured by user votes 
 
 ![download](https://github.com/mwanza00/microsoft_movies/assets/137791910/b7ce7a7f-089c-435a-8244-9764b7b8661a)
 
+
 ## Recommendations and Suggestions
 
 Based on the visualized data, the recommended route for a brand new movie studio is to focus on producing films with high popularity or better ratings since they tend to have a high potential for success and perform better financially. They are the most successful genres in terms of box office revenue. Microsoft's new movie studio should produce movies during the most favorable months or seasons for releasing films, taking into account competition and audience preferences. The studio should also produce movies within higher budget ranges since they have shown the highest returns on investment.
