@@ -1,4 +1,7 @@
 # Exploratory Data Analysis on Film Industry: Genres, Popularity and Profitability
+![istockphoto-453554783-612x612](https://github.com/mwanza00/microsoft_movies/assets/137791910/e4a87b06-47f1-4018-9348-86a06d39713d)
+
+
 ![image](https://github.com/mwanza00/microsoft_movies/assets/137791910/8338478d-bbd9-4fc5-93b2-d88f4d75bac3)
 
 
